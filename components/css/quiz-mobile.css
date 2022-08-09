@@ -1,0 +1,143 @@
+@media (min-width: 280px) and (max-width: 767px){
+
+    /* media query for the top-banner (remove floats) */
+
+   /* media query for the top-banner (remove floats) */
+
+  
+  #top-banner .fa-phone-alt {
+    /* position:relative;
+    top: 0px;
+    float: none; */
+    display: none;
+
+}
+#top-banner  .row #logo1 { 
+    display: block;
+}
+
+#top-banner .row #logo2 { 
+    display: none;
+}
+
+#top-banner .row #banner-phone  {
+    display: none;
+    float: none;
+    text-align: center;
+}
+
+#top-banner .row #banner-email { 
+    display: none;
+    float: none;
+    text-align: center;
+}
+
+#top-banner  .row .col-sm-4.col-md-4.col-lg-4 {
+    padding-bottom: 10px;
+}
+
+#chatPort, #inputPort {
+    width: 100%;
+}
+
+#chatPort {
+    height: 80vh;
+}
+}
+
+@media (max-width: 991px) {
+    .main-port {
+       
+        background-size: cover;
+       }
+}
+
+/* mobile view */
+@media (min-width: 576px) and (max-width:767px) {
+    .list-head {
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+    
+    .list-content {
+        font-size: 1.2em;
+    }
+}
+@media (min-width: 280px) and (max-width:576px) {
+    /* #currentQuestion {
+        font-size: 14px;
+    } */
+    .gallery-pic {
+        height: 280px;
+        width: 230px;
+    }
+
+    .indicator, .indicator-basic {
+        height: 30px;
+        width: 30px;
+      
+    }
+
+    audio {
+        display: block;
+        width: 200px;
+        height: auto;
+    }
+
+
+    .faq-title {
+        font-size: 1.4em;
+    }
+
+    .faq-content {
+        font-size: 1.2em;
+        padding-left: 12px;
+    }
+
+    
+.bottle {
+    font-size: 2rem;
+   
+}
+
+.day-supply {
+ font-size: 2rem;
+ 
+}
+
+.product-price {
+ font-size: 2rem;
+ 
+}
+
+.per-bottle {
+
+ top: 0;
+ font-size: 2rem;
+
+}
+
+.bottom-strike {
+ font-size: 1.4rem;
+}
+
+.bonus {   
+    font-size: 1.4rem;
+  }
+  .checkb {
+    font-size: 1.2rem;
+}  
+}
+
+
+/* rule for really small screens */
+
+@media (max-width: 290px){
+    .ans-btn {
+        font-size: 1rem !important; 
+    }
+
+    #genetic-banner {
+        font-size: 1.25rem !important; 
+    }
+}
