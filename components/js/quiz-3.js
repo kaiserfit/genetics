@@ -1,4 +1,7 @@
 
+
+
+
 const states = [
     {id:0,cookie:"gender", state:"Gender: "},
     {id:1,cookie:"userage", state:"Age: "},
@@ -136,7 +139,7 @@ $('.ans-btn').click(function(){
         } else {
             setTimeout(() => {
                 document.cookie = "_fbe_id="+event_id;
-                window.location.href="https://kaizerfit.com/fathacks-v2/vsl.html";
+                window.location.href="http://192.168.5.174:5500/vsl.html";
             }, 500);
         }
       
@@ -158,20 +161,20 @@ $('.ans-btn').click(function(){
             // kTr('Lead');
         
             document.cookie="gender="+ans+";path=/";
-            window.location.href="/genetics/__age/";
+            window.location.href="/__age/";
          
         break;
         case 1:
             // ttq.track('SubmitForm');
             document.cookie="userage="+ans+";path=/";
-            window.location.href="/genetics/__metabolism/";
+            window.location.href="/__metabolism/";
        
         break;
         case 2:
        
 
         document.cookie="metabolism="+ans+";path=/";
-        window.location.href="/genetics/__weight/";
+        window.location.href="/__weight/";
      
         break;
         case 3:
@@ -179,7 +182,7 @@ $('.ans-btn').click(function(){
             var s = $("#weightMs").text();
     
             document.cookie="weight="+$.trim(s)+";path=/";
-            window.location.href="/genetics/__goal/";
+            window.location.href="/__goal/";
           
             break;
             case 4 :
@@ -188,7 +191,7 @@ $('.ans-btn').click(function(){
                 // kTr('Contact');
                 // gtag('event', 'conversion', {'send_to': 'AW-10886811479/-Xg0CLvhvrQDENeensco'});
                 document.cookie="goal="+ans+";path=/";
-                window.location.href="/genetics/__challenge/";
+                window.location.href="/__challenge/";
               
             break;
          
@@ -249,7 +252,7 @@ function recordQuiz(){
                 success: function(data) {
                     setTimeout(() => {
                         
-                        window.location.href="https://kaizerfit.com/fathacks-v2/vsl.html";
+                        window.location.href="http://192.168.5.174:5500/vsl.html";
                     }, 500);
                 },
                  error: function(data){
